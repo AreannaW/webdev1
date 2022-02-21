@@ -2,4 +2,31 @@
 
 body {
     margin: 0;
+    background-color: black;
+}
+header{
+    background-color: rgb(17, 17, 17);
+}
+h1{
+    color:white;
+    text-align:center;
+}
+h2{
+    color:grey;
+    text-align:center;
+    text-size:50px
+}
+h3{
+    background-color:rgb(63, 62, 62);
+    color:white;
+    margin: 10px 300px 0px 300px;
+    padding:10px 20px 5px 10px;
+    border-left:solid white 5px; 
+}
+p{
+    color: white;
+    background-color: rgb(104, 99, 99);
+    padding:20px 20px 20px 10px;
+    margin: 0px 300px 50px 300px;
+    border-left:solid white 5px;
 }
