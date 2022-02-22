@@ -2,31 +2,61 @@
 
 body {
     margin: 0;
-    background-color: black;
+    background-color: rgb(2, 59, 84);
 }
 header{
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(2, 75, 106);
+    padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 h1{
     color:white;
     text-align:center;
+    font-size: 3.5em;
+    padding: 30px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+    font-family: 'Roboto Serif', sans-serif;
 }
 h2{
-    color:grey;
+    color:rgb(123, 149, 160);
     text-align:center;
-    text-size:50px
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+    margin: 5px 10px 15px 10px;
+    font-family: 'Roboto Serif', sans-serif;
+}
+nav{
+    text-align:center;
+}
+a{
+    color:rgb(139, 182, 156);
+padding: 0px 10px 0px 10px; 
 }
 h3{
-    background-color:rgb(63, 62, 62);
+    background-color:rgb(27, 100, 132);
     color:white;
-    margin: 10px 300px 0px 300px;
-    padding:10px 20px 5px 10px;
-    border-left:solid white 5px; 
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px 10px 25px;
 }
 p{
+    text-align:center; 
+}
+section{
     color: white;
-    background-color: rgb(104, 99, 99);
-    padding:20px 20px 20px 10px;
-    margin: 0px 300px 50px 300px;
+    background-color: rgb(97, 121, 131);
+    padding:0px 0px 15px 0px;
+    margin: 0px 300px 30px 300px;
     border-left:solid white 5px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer{
+    background-color: rgb(2, 75, 106) ;
+    padding:30px 0px 30px 0px;
+    font-size: 1em;
+    font-weight: bold 300;
 }
