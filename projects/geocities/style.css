@@ -1,0 +1,14 @@
+body {
+    background-image: url("Images/pink.jpg");
+    background-size: 20rem 20rem 20rem 20rem  ;
+   }
+   .barbie{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   }
+   .dora{
+    font-family: 'Cookie', cursive;
+    font-family: 'Handlee', cursive;
+   }
