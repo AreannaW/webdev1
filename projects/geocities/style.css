@@ -10,27 +10,90 @@ body {
     margin-right: auto;
     width: 30rem;
    }
-   .sza{
-    width: 10rem;  
+   #top{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 10rem; 
+        text-align:center;
+       
    }
+
+   .fairy{
+    float: left;
+    padding-left: 20rem;
+   }
+
+   .top{
+    text-align:center;
+     position: absolute;
+   }
+   .sza{
+       width:10rem;
+       padding-right: 10rem;
+   }
+   .sza::after{
+   width: 10rem;
+  clear: both;
+  display: table; 
+   }
+   .nickie{
+       display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20rem;
+   }   
    .gum{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
        width: 10rem
    }
-   .retro{
-       width:20rem;
+   .bunny{
+      padding-left:30rem;
+    position: fixed;
+    
    }
-   nav{
+   
+   .kisses{
+    position: fixed;
+    width: 20rem;
+
+   }
+   .retro{
+    width: 10rem;
+    padding-left: 5rem;
+   }
+   .hair{
+       padding-left: 40rem;
+       padding-top: 0rem;
+       margin-top:0rem ;
+       width: 10rem;
+   }
+   .header{
        background-image: url(Images/money.jpg);
     background-color:rgb(236, 70, 167);
     padding:1.5rem 5rem 1.5rem 5rem;
   
    }
  h1{
-     
-     font-family: 'Handlee', cursive;
+     font-family: 'Cookie', cursive;
      color:white;
+     font-size: 5rem;
+     text-align:center;
+
+ }
+ #enter{
+     background-color: white; 
+     padding:2rem 10rem 2rem 10rem;
+ }
+ #cutie{
+    text-size:10rem;
+    
  }
    p{
-   font-family: 'Cookie', cursive;
-   color:white;
+    font-family: 'Handlee', cursive;
+   color: rgb(236, 70, 167);
+  text-align: center;
+   
    }
